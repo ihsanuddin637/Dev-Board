@@ -7,6 +7,7 @@ document.getElementById('fix-btn').addEventListener('click', function () {
         taskNumber.innerText = convertedNumber - 1;
     }
 
+
     const checkboxIncrement = document.getElementById('checkbox-increment');
     let convertedNumberr = parseInt(checkboxIncrement.innerText);
     if (convertedNumberr < 29) {
@@ -53,7 +54,6 @@ document.getElementById('dark-btn').addEventListener('click', function () {
     if (convertedNumberr < 29) {
         checkboxIncrement.innerText = convertedNumberr + 1;
     }
-
     const fixMobile = document.getElementById('dark-mode')
 
     const changedText = fixMobile.innerText;
@@ -95,6 +95,8 @@ document.getElementById('optimize-btn').addEventListener('click', function () {
     if (convertedNumberr < 29) {
         checkboxIncrement.innerText = convertedNumberr + 1;
     }
+
+
 
     const fixMobile = document.getElementById('optimize-page')
 
@@ -138,6 +140,7 @@ document.getElementById('emoji-btn').addEventListener('click', function () {
         checkboxIncrement.innerText = convertedNumberr + 1;
     }
 
+
     const fixMobile = document.getElementById('add-emoji')
 
     const changedText = fixMobile.innerText;
@@ -179,6 +182,7 @@ document.getElementById('api-btn').addEventListener('click', function () {
     if (convertedNumberr < 29) {
         checkboxIncrement.innerText = convertedNumberr + 1;
     }
+
 
     const fixMobile = document.getElementById('openai-api')
 
@@ -249,22 +253,6 @@ document.getElementById('job-btn').addEventListener('click', function () {
 
 })
 
-// document.getElementById('theme-color').addEventListener('click', function(){
-//     const color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "]
-
-// })
-
-
-// document.getElementById('dev-date').addEventListener('onload', function () {
-//         const devDate = 'dev-date';
-//         const d = new Date();
-//         d = devDate;
-//     })
-
-
-    // document.getElementById('history').addEventListener('click', function () {
-    //     const logHistory = 'history';
-    // })
 
     document.getElementById('discover').addEventListener('click', function(){
         window.location.href="./main.html";
