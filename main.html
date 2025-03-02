@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="max-w-7xl mx-auto py-6">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                    <img class="w-12 h-12" src="./assets/logo.png" alt="">
+                    <h1 class="font-poppins text-[#00303C] text-4xl font-light">Dev<span class="font-bold">Board</span>
+                    </h1>
+                </div>
+                <div id="back">Back to Home</div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Blog</h1>
+        <section>
+            <div class="collapse bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-1" checked="checked" />
+                <div class="collapse-title font-semibold">Question-1: What are the different ways to select an element in the DOM?</div>
+                <div class="collapse-content text-sm">There are the 5 different ways to select an element in the DOM. They are- 
+                    1. getElementsByTagName()
+                    2. getElementById()
+                    3. getElementsByClassName()
+                    4. querySelectorAll()
+                    5. querySelector()</div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-1" />
+                <div class="collapse-title font-semibold">Question-2: What is the difference between innerHTML, innerText, and textContent?</div>
+                <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the
+                    instructions sent to your email.</div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-1" />
+                <div class="collapse-title font-semibold">Question-3: What is event delegation in the DOM?</div>
+                <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                    changes.</div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-1" />
+                <div class="collapse-title font-semibold">Question-4: What is event bubbling in the DOM?</div>
+                <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                    changes.</div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-1" />
+                <div class="collapse-title font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?</div>
+                <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                    changes.</div>
+            </div>
+        </section>
+    </main>
+    <script src="./Javascript/script.js"></script>
+</body>
+
+</html>
