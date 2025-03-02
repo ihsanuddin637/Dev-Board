@@ -262,10 +262,12 @@ document.getElementById('job-btn').addEventListener('click', function () {
 //     })
 
 
-//     document.getElementById('history').addEventListener('click', function () {
-//         const logHistory = 'history';
-//     })
+    // document.getElementById('history').addEventListener('click', function () {
+    //     const logHistory = 'history';
+    // })
 
-//     document.getElementById('discover').addEventListener('click', function(){
-//         window.location.href="./main.html"
-//     })
+    document.getElementById('discover').addEventListener('click', function(){
+        window.location.href="./main.html";
+    })
+
+    
