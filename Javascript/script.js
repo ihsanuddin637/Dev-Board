@@ -254,8 +254,29 @@ document.getElementById('job-btn').addEventListener('click', function () {
 })
 
 
-    document.getElementById('discover').addEventListener('click', function(){
-        window.location.href="./main.html";
-    })
+document.getElementById('discover').addEventListener('click', function () {
+    window.location.href = "./main.html";
+})
 
-    
+function startTime() {
+    const today = new Date();
+    const txtDate = document.getElementById('txt');
+
+    const daysOfWeek = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+    const dayOfWeek = daysOfWeek[today.getDay()];
+
+    const monthsOfYear = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const monthOfYear = monthsOfYear[today.getMonth()];
+
+    const monthOfDay = today.getDate();
+    const fullYear = today.getFullYear();
+
+    txtDate.innerHTML = dayOfWeek + ' ' + ',' + "<br>" + monthOfYear + " " + monthOfDay + ", " + fullYear;
+
+    setTimeout(startTime, 1000);
+
+    const addedItem = document.createElement('div');
+    Node.appendChild('txtDate')
+
+
+  }
